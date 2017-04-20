@@ -13,11 +13,11 @@
 
     <!-- Pictures -->
     <array name="stylistIcon">
-        <item>@drawable/Albert</item>
-        <item>@drawable/Daniel</item>
+        <item>@drawable/albert</item>
+        <item>@drawable/daniel</item>
         <item>@drawable/sunggyu</item>
-        <item>@drawable/Yumi</item>
-        <item>@drawable/Angela</item>
+        <item>@drawable/yumi</item>
+        <item>@drawable/angela</item>
     </array>
 
     <!-- Ratings -->

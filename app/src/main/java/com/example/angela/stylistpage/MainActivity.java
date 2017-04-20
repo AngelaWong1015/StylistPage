@@ -59,7 +59,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ListenserforRatingBar();
+        ListenerForRatingBar();
         onButtonClickListener();
 
         // Create default options which will be used for every
@@ -78,8 +78,8 @@ public class MainActivity extends ActionBarActivity {
  //       new JSONTask().execute("file:///C:/Users/angela/Desktop/stylist.htm");
     }
 
-    public void ListenserforRatingBar(){
-        rating_b =(RatingBar)findViewById(R.id.submitBtn);
+    public void ListenerForRatingBar(){
+        rating_b =(RatingBar)findViewById(R.id.ratingBar);
         //text_v (TextView)findViewById(R.id.textView);
 
         rating_b.setOnRatingBarChangeListener(
@@ -100,10 +100,8 @@ public class MainActivity extends ActionBarActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Toast.makeText(MainActivity.this,
-                                String.valueOf(rating_b.getRating()),
-                                Toast.LENGTH_SHORT.show();
-                    }
+                     //   Toast.makeText(getApplicationContext(),rating_b.getNumStars(),Toast.LENGTH_SHORT.show();
+                }
                 }
         );
     }
